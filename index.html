@@ -7,37 +7,19 @@
   <script src="js/jquery.js"></script>
   <script src="js/planets.js"></script>
 </head>
-<body>
-  <div id='wrapper'>
+<body> 
+  <div id='container'>
     <div id='chart'>
       <h2>Planets' average distance from the sun</h2>
-        <table id="data-table" border='1' cellspacing="0" cellpadding="5">
-          <caption>Distance in astronomical units (AU)</caption>
-            <thead>
-              <tr>
-                <td>&nbsp;</td>
-                <th scope='col'>Distance</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope='row'>Mercury</th>
-                  <td>5</td>
-              </tr>
-              <tr>
-                <th scope='row'>Venus</th>
-                  <td>15</td>
-              </tr>
-              <tr>
-                <th scope='row'>Earth</th>
-                  <td>13</td>
-              </tr>
-              <tr>
-                <th scope='row'>Mars</th>
-                  <td>8</td>
-              </tr>
-            </tbody>
-        </table>
+      <table id="data-table" border='1' cellspacing="0" cellpadding="5">
+      <caption>Distance in astronomical units (AU)</caption>
+        
+
+
+      <div id='mars' class='bars'></div>
+      <div id="earth" class='bars'></div>
+      <div id="mercury" class='bars'></div>
+      <div id="venus" class='bars'></div>
     </div>
   </div>
   
